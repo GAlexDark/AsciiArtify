@@ -1,0 +1,14 @@
+# Dependencies
+
+# Generated files
+*.log
+*.db
+*.old
+*.bak
+*.backup
+*.conf
+*.cnf
+*.code-workspace
+bin/
+image/
+.vscode/
