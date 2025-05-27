@@ -52,6 +52,10 @@
 ```
 Рішення:
 1. Швидке.  
+	1.0. (Не тестувалось) Додати в розділ redis файлу values.yaml:
+	```
+	volumePermissions: enabled: true
+	```
 	1.1. Виконати команду:
     ```
     kubectl get pod demo-redis-master-0 -o yaml -n demo | grep runAsUser
